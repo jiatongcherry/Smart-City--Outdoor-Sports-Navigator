@@ -1,0 +1,6093 @@
+[
+    {
+        "id": "1717050aeca65d41",
+        "type": "tab",
+        "label": "dashboardstyle",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b9b7e8c891059a92",
+        "type": "tab",
+        "label": "1Time",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8ed7521c8e8a0384",
+        "type": "tab",
+        "label": "2Temperature",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0e15884662d08311",
+        "type": "tab",
+        "label": "4Tips",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0041c32355c2feea",
+        "type": "tab",
+        "label": "5Sunrise&Sunset",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "89fb048e35bad85e",
+        "type": "tab",
+        "label": "6Humidity",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e8f1bdc35d8a3a94",
+        "type": "tab",
+        "label": "7SeaSurfaceTemperature",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0440aff890d8defa",
+        "type": "tab",
+        "label": "8SoilTemperature",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e2117e1187183463",
+        "type": "tab",
+        "label": "11WeatherForecast",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "791b313f3c932f2d",
+        "type": "tab",
+        "label": "12Map",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0ecdaa6bfdbc859e",
+        "type": "tab",
+        "label": "21AirQuality",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fba5643d2451c57a",
+        "type": "tab",
+        "label": "22Wind",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b04ca0c9181a792f",
+        "type": "tab",
+        "label": "23Rainfall",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "452249c593ca4764",
+        "type": "tab",
+        "label": "31Exit&Entry",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ecc26120.5c01a8",
+        "type": "mongodb3",
+        "uri": "mongodb://Mymongo:27017",
+        "name": "HKO",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "e9f24978.c8dae8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#8a8a8a",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "HKSTP",
+                "default": "#4B7930",
+                "baseColor": "#a1a1a1",
+                "baseFont": "Times New Roman,Times,serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#371a95",
+                    "value": "#a1a1a1",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#a1a1a1",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#df2020",
+                    "edited": true
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#b5b5b5",
+                    "edited": true
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#737373",
+                    "edited": true
+                },
+                "widget-textColor": {
+                    "value": "#ffffff",
+                    "edited": true
+                },
+                "widget-backgroundColor": {
+                    "value": "#371a95",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#454545",
+                    "edited": true
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "grey",
+                "accents": "blue",
+                "warn": "red",
+                "background": "blue",
+                "palette": "dark"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 40,
+                "sy": 100,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "30cd49db6feee962",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "772829a2b5a00136",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a6afd1f977340b63",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a248803e88fd699e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "dcf1785137f64913",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6c0f7ed698fc74ab",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8aaeba6662cebdfc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64cfa407f9778d7c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ccdbe36b1ce45412",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "09b1077bc75564c4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ae33ea70d6708d7f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "57c31d071a8ea845",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "389827cee1fee624",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "906abbe9a24bcc30",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4a39cbc672abcd5c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "418876ca8788c688",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b87e758d6126324a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1bfc10a66e51926c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e912a9803c7b0a1f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "79a554afc49c2a41",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9cddb2e4c241f54b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "8561a3da9eca6c38",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0247b2928c739a75",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8ccaa4162f3702c8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4516c454b2fafbc2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "892423096fc79dac",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8dd303648c171757",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8060d3043fe77d8c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b87ccd315b1d1536",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ef4f277de853a980",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4d09cb16a782eb60",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "64a57ad99471962c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "88febd8120093c81",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "4f9dfb2cd755b63f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ef6a959dd0e509a5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "446fe40ffbdb1ee3",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "25d16f952b92736f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "ada3ab8e87a96a24",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d15e4ba5227f1b33",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "49690def78a81d28",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "c0417e1012383552",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bb47c1e29c282e26",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7e29d639608d160a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "d098dbc7daa5104a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d5a9db634661049a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a1b4cbfd924c1cae",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "97623b927fb8204d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "05e84329bab0c152",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bc9638f356a583c0",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "32ac890bf78c7ea6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6cb651b1f2d3f291",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e136875bd6c896ea",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8464c78d57f762a2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e0cc7d1179e9aff5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "966e57ac79eecad4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0d6e522e13f15dd8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d252e00.719972",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "986ea8be.a720d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7ae95dd.598b8a4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "12b03b6c.00a125",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "38ff2957.f5c0f6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9acac434.12c048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "546162a.de0c21c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "50a0dc28.a95074",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "75617013.256838",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "18365073.4fd048",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7cb3065c.3f816",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2b67673c.7064c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "137142b2.aa42ad",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b440611167c0891e",
+        "type": "ui_group",
+        "name": "23Rainfall",
+        "tab": "e8ab35b7b4d8334a",
+        "order": 12,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": "ALL"
+    },
+    {
+        "id": "1a45cfc6e27c31c3",
+        "type": "ui_tab",
+        "name": "SmartCity",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0d1eba9924f01b44",
+        "type": "ui_group",
+        "name": "21AirQuality",
+        "tab": "e8ab35b7b4d8334a",
+        "order": 10,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ae63f15f9067116f",
+        "type": "ui_group",
+        "name": "22Wind",
+        "tab": "e8ab35b7b4d8334a",
+        "order": 11,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d6810adfe7d2d8f",
+        "type": "ui_group",
+        "name": "31Exit&Entry",
+        "tab": "f27d17637fae22f5",
+        "order": 17,
+        "disp": false,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a2113d9c5c0a227f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "35a9848ca5faeccc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b25a035a29a14d7e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "903f3364801741d1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ac9797eddd52c255",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "c205593fef96fd09",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "c1b0f97338871e7d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e1231156f9fc5410",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "25947bf4e538016d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "75f6f0e7c180b42f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "cead05b52da485a8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0d9db19948fde2af",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "2ea38702d7f53ada",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "73474359f54ec62b",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "268084cca05268a6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "88592f2f7061f099",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8355828d985e32e1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "be0e358af5a515d7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "9bea9dd00725ebb9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "db8ab956236341cf",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b68cee271f151fc2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "5b515c4238a2a2a5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "156dbc897d1f9fba",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b4682381d1c54450",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2670661b2a44d134",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d31e89bcf0be7302",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "385cbd7ce19d73ab",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ed1ae6661196bcfb",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8452ef2dbdf5ea66",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2cc552163d82a8af",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b259a3a19014a4d9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "065fb65b26867c76",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "bf502e40ac68c817",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8616051cbc819e84",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "97f15635434f3c09",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "ef7be6bd85a27d0e",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "1e1b04dfd91cf3fe",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a86a656722cadafc",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "95e5a1bfb4aa6184",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 12,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "7872b08b02807137",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 13,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "6e65bde6e5f99446",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "53dfa39c75c3cf68",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "3d2bdc86e3c58c51",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 16,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "d926d6e7b5868303",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "705844d1759c6e44",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 20,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "14f5c0b928c16872",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 21,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "dcd5b4935b27bc4f",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "41a4453c4a2322e7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5e5ac4f86e454361",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f55169a9de5856a7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "35c1db866bc388fe",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ed1a5426ca66628a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 8,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "17fe9e73f79a2f40",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2e85a47780de53bd",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65ee9fc462bae3d5",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8388aa9280ce4a6a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e92998ccf09dc3c9",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "bfc46110e29a9216",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5ef0c4c1a69bccd2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8468175110671196",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7e1fdeec1fcac561",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ffed39c8707ffd02",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4626e413f165b851",
+        "type": "mongodb3",
+        "uri": "mongodb://borismongo:27017",
+        "name": "group project",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "d0026b7eaf2741dc",
+        "type": "mongodb3",
+        "uri": "mongodb://Mymongo:27017",
+        "name": "hospital",
+        "options": "",
+        "parallelism": "-1"
+    },
+    {
+        "id": "b61b727797614e6c",
+        "type": "ui_group",
+        "name": "1Time",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 1,
+        "disp": false,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2b359c35e2a6ae27",
+        "type": "ui_group",
+        "name": "11WeatherForecast",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 8,
+        "disp": false,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8c1033adfe621b8a",
+        "type": "ui_group",
+        "name": "2Temperature",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 2,
+        "disp": false,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "db4f2583806c8b0e",
+        "type": "ui_group",
+        "name": "4Tips",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 3,
+        "disp": false,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "21372801f8bb7fe1",
+        "type": "ui_group",
+        "name": "8SoilTemperature",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 7,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f7e6de193f9179f2",
+        "type": "ui_group",
+        "name": "7SeaSurfaceTemperature",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 6,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b392b1d6490184e2",
+        "type": "ui_group",
+        "name": "6Humidity",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 5,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "45384c82a3776a5a",
+        "type": "ui_group",
+        "name": "5Sunrise&Sunset",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 4,
+        "disp": false,
+        "width": "5",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "024e0dcf76a0fd81",
+        "type": "ui_group",
+        "name": "12Map",
+        "tab": "1a45cfc6e27c31c3",
+        "order": 9,
+        "disp": false,
+        "width": "15",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f27d17637fae22f5",
+        "type": "ui_tab",
+        "name": "Exit&Entry",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8e47e8cddf0cfc6a",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 2,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "279a48ab819381ba",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 3,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "20073569b08f6314",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 4,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "d0d0c03a926893aa",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 5,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "e22556357099fb5c",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 6,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "ccf5afe4efea42b1",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 7,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "ae9425a9a752c7f8",
+        "type": "ui_spacer",
+        "z": "0041c32355c2feea",
+        "name": "spacer",
+        "group": "3ef7ad36cfc63f79",
+        "order": 8,
+        "width": 15,
+        "height": 1
+    },
+    {
+        "id": "e8ab35b7b4d8334a",
+        "type": "ui_tab",
+        "name": "DetailedWeather",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c9f96ae81a44613c",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "2b359c35e2a6ae27",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "81723e03246510cf",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "2b359c35e2a6ae27",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0eb9a328f20642e2",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "2b359c35e2a6ae27",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "361baa36438905aa",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "2b359c35e2a6ae27",
+        "order": 13,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "2e5be60c11dd1ed6",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "2b359c35e2a6ae27",
+        "order": 14,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "85acd816b9e1c966",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "acc999a67f70490a",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "07deab130e48b9f3",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a89b246ca29e5a71",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "6108f532adc1e10b",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7c9df1239109a562",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 7,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ee4683cdbec05f3c",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "ba1c8f271ffa2e34",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b38c1f97bde4980e",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "65021c6d8659216e",
+        "type": "ui_spacer",
+        "z": "e2117e1187183463",
+        "name": "spacer",
+        "group": "024e0dcf76a0fd81",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "16a39c508d47def7",
+        "type": "ui_template",
+        "z": "1717050aeca65d41",
+        "group": "",
+        "name": "Dashboard Style",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    body.nr-dashboard-theme {\n        background: -webkit-linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);\n        background-size: 400% 400%;\n        animation: gradient 15s ease infinite;\n    }\n\n    @keyframes gradient {\n        0% {\n            background-position: 0% 50%;\n        }\n        50% {\n            background-position: 100% 50%;\n        }\n        100% {\n            background-position: 0% 50%;\n        }\n    }\n\n    body.nr-dashboard-theme md-toolbar,\n    body.nr-dashboard-theme md-content, md-card {\n        background-color: transparent !important;\n        color: #FFFFFF;\n    }\n\n    ui-card-panel {\n        background-color: rgba(255, 255, 255, 0.2) !important;\n        border-radius: 20px !important;\n    }\n    \n    body.nr-dashboard-theme md-sidenav {\n        background-color: rgba(255, 255, 255, 0.1) !important;\n    }\n</style>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 310,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fce2fe792f2d3547",
+        "type": "ui_text",
+        "z": "b9b7e8c891059a92",
+        "group": "b61b727797614e6c",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "name": "currentTime",
+        "label": "Time",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Times New Roman,Times,serif",
+        "fontSize": "20",
+        "color": "#ffffff",
+        "x": 810,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "0f190112153a1934",
+        "type": "function",
+        "z": "b9b7e8c891059a92",
+        "name": "time",
+        "func": "var d = new Date();\nvar currentDate = new Date();\ntmpHours = currentDate.getHours();\nvar time_zone = -d.getTimezoneOffset() / 60;\nif (time_zone < 0) {\n        time_zone = Math.abs(time_zone) + 8; \n        currentDate.setHours(tmpHours + time_zone);\n} \nelse{\n    time_zone -= 8; \n    currentDate.setHours(tmpHours - time_zone);\n}\n\nnow=currentDate.toString();\n\ntime=msg.payload.updateTime;\na=time.substring(0,10);\nb=now.substring(16,24);\nupdate=a+\" \"+b;\n\nmsg.payload=update;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 13,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 540,
+        "wires": [
+            [
+                "fce2fe792f2d3547"
+            ]
+        ]
+    },
+    {
+        "id": "ace2e43ff030587a",
+        "type": "http request",
+        "z": "b9b7e8c891059a92",
+        "name": "http request",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 370,
+        "y": 540,
+        "wires": [
+            [
+                "0f190112153a1934"
+            ]
+        ]
+    },
+    {
+        "id": "140e18442591c904",
+        "type": "inject",
+        "z": "b9b7e8c891059a92",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "ace2e43ff030587a"
+            ]
+        ]
+    },
+    {
+        "id": "55cc43ac23847d25",
+        "type": "inject",
+        "z": "8ed7521c8e8a0384",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "536ed19e1c027c39"
+            ]
+        ]
+    },
+    {
+        "id": "536ed19e1c027c39",
+        "type": "http request",
+        "z": "8ed7521c8e8a0384",
+        "name": "get temperature",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "ed6adcf685afbd0e"
+            ]
+        ]
+    },
+    {
+        "id": "ed6adcf685afbd0e",
+        "type": "function",
+        "z": "8ed7521c8e8a0384",
+        "name": "temperature",
+        "func": "const temp=msg.payload.temperature.data[1].value;\n\nmsg.payload=temp;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "d55c37bbdbb95feb"
+            ]
+        ]
+    },
+    {
+        "id": "d55c37bbdbb95feb",
+        "type": "ui_gauge",
+        "z": "8ed7521c8e8a0384",
+        "name": "",
+        "group": "8c1033adfe621b8a",
+        "order": 1,
+        "width": 5,
+        "height": 2,
+        "gtype": "donut",
+        "title": "Temperature",
+        "label": "℃",
+        "format": "{{value}}",
+        "min": "-10",
+        "max": "50",
+        "colors": [
+            "#1e90ff",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 730,
+        "y": 220,
+        "wires": [],
+        "icon": "font-awesome/fa-thermometer-1"
+    },
+    {
+        "id": "d3769126a5a5c9d8",
+        "type": "inject",
+        "z": "0e15884662d08311",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 200,
+        "wires": [
+            [
+                "462167b5a84fd3ee"
+            ]
+        ]
+    },
+    {
+        "id": "462167b5a84fd3ee",
+        "type": "http request",
+        "z": "0e15884662d08311",
+        "name": "get tips",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "c5b3096994b673a0"
+            ]
+        ]
+    },
+    {
+        "id": "c5b3096994b673a0",
+        "type": "function",
+        "z": "0e15884662d08311",
+        "name": "tips",
+        "func": "var temperature=msg.payload.temperature.data[1].value;\nif(msg.payload.uvindex == \"\"){\n    var uvi = 0;\n}else{\n    uvi = msg.payload.uvindex.data[0].value;\n}\n\n\nvar alert=\"Tips:\";\nif(temperature<15){\n    alert=alert+\" It is cold today. It is recommended to wear coats, woolen coats, sweaters, sweaters and other clothing; for the weak, thick coats and sweaters are recommended.\";\n}else if(temperature<25){\n    alert=alert+\" The weather is fine during the day, so it is recommended to wear thin suits and other clothing. At night, the weather turns cooler, it is recommended to add more coats.\";\n}else{\n    alert=alert+\" The weather is hot today, so summer clothes such as short skirts, shorts, short coats, T-shirts are recommended.\";\n}\n\nif(uvi>=5&&uvi<=7){\n    alert=alert+\"The current UV intensity is level 3. It is recommended to take sun protection measures when going out, such as rubbing sunscreen and opening an umbrella.\";\n}\nif(uvi>7){\n    alert=alert+\"The current UV intensity is greater than level 3, and the UV is stronger. You should take sun protection measures when you go out and avoid prolonged outdoor exposure to prevent sun damage.\";\n}\n\nmsg.payload=alert;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 200,
+        "wires": [
+            [
+                "621c2824667b3938"
+            ]
+        ]
+    },
+    {
+        "id": "621c2824667b3938",
+        "type": "ui_text",
+        "z": "0e15884662d08311",
+        "group": "db4f2583806c8b0e",
+        "order": 1,
+        "width": 20,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "bb06889777110304",
+        "type": "inject",
+        "z": "0041c32355c2feea",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 360,
+        "wires": [
+            [
+                "6325dea7fd60265c"
+            ]
+        ]
+    },
+    {
+        "id": "6325dea7fd60265c",
+        "type": "http request",
+        "z": "0041c32355c2feea",
+        "name": "get sunrise&sunset",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/opendata.php?dataType=SRS&lang=en&rformat=csv&year=2024&month=11&day=27",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 330,
+        "y": 360,
+        "wires": [
+            [
+                "8620e278437ae7aa"
+            ]
+        ]
+    },
+    {
+        "id": "1aee4db79f12019a",
+        "type": "function",
+        "z": "0041c32355c2feea",
+        "name": "sunrise&sunset",
+        "func": "var sunrise = msg.payload.col2\nvar sunset = msg.payload.col4\nmsg.payload = \"Sunrise:\" + sunrise + \"    Sunset:\" + sunset\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 360,
+        "wires": [
+            [
+                "bd242c1d68ce193a"
+            ]
+        ]
+    },
+    {
+        "id": "8620e278437ae7aa",
+        "type": "csv",
+        "z": "0041c32355c2feea",
+        "name": "",
+        "spec": "rfc",
+        "sep": ",",
+        "hdrin": "",
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 530,
+        "y": 360,
+        "wires": [
+            [
+                "1aee4db79f12019a"
+            ]
+        ]
+    },
+    {
+        "id": "bd242c1d68ce193a",
+        "type": "ui_text",
+        "z": "0041c32355c2feea",
+        "group": "45384c82a3776a5a",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "56298ace63ef243c",
+        "type": "inject",
+        "z": "89fb048e35bad85e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "002f07ac4464e498"
+            ]
+        ]
+    },
+    {
+        "id": "002f07ac4464e498",
+        "type": "http request",
+        "z": "89fb048e35bad85e",
+        "name": "get humidity",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 390,
+        "y": 340,
+        "wires": [
+            [
+                "d51b7a028bc4b5be"
+            ]
+        ]
+    },
+    {
+        "id": "d51b7a028bc4b5be",
+        "type": "function",
+        "z": "89fb048e35bad85e",
+        "name": "humidity",
+        "func": "humid=msg.payload.humidity.data[0].value;\n\nmsg.payload=humid;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 2,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "3e4d953a4a61a728"
+            ]
+        ]
+    },
+    {
+        "id": "3e4d953a4a61a728",
+        "type": "ui_gauge",
+        "z": "89fb048e35bad85e",
+        "name": "",
+        "group": "b392b1d6490184e2",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "gtype": "gage",
+        "title": "",
+        "label": "Humidity",
+        "format": "{{value}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#1e90ff",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 810,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "197bc41b1ee7b7ab",
+        "type": "inject",
+        "z": "e8f1bdc35d8a3a94",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 480,
+        "wires": [
+            [
+                "78e43cb38d90caaa"
+            ]
+        ]
+    },
+    {
+        "id": "78e43cb38d90caaa",
+        "type": "http request",
+        "z": "e8f1bdc35d8a3a94",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 376,
+        "y": 480,
+        "wires": [
+            [
+                "5d1f6fe533f47426"
+            ]
+        ]
+    },
+    {
+        "id": "5d1f6fe533f47426",
+        "type": "json",
+        "z": "e8f1bdc35d8a3a94",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 480,
+        "wires": [
+            [
+                "a80b93dbe9e92c7a"
+            ]
+        ]
+    },
+    {
+        "id": "a80b93dbe9e92c7a",
+        "type": "function",
+        "z": "e8f1bdc35d8a3a94",
+        "name": "Format Chart Data",
+        "func": "var seaTemp = msg.payload.seaTemp;\n\nif (Array.isArray(seaTemp)){\n    msg.payload = {\n        place: seaTemp[0].place,\n        value: seaTemp[0].value,\n        unit: seaTemp[0].unit\n    }\n} else {\n    msg.payload = {\n        place: seaTemp.place,\n        value: seaTemp.value,\n        unit: seaTemp.unit,\n    }\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 480,
+        "wires": [
+            [
+                "6535e7fea44fda16"
+            ]
+        ]
+    },
+    {
+        "id": "6535e7fea44fda16",
+        "type": "ui_gauge",
+        "z": "e8f1bdc35d8a3a94",
+        "name": "",
+        "group": "f7e6de193f9179f2",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "gtype": "gage",
+        "title": "",
+        "label": "Sea Surface Temperature({{msg.payload.unit}})",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#1e90ff",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "9dad20e2a85923b8",
+        "type": "inject",
+        "z": "0440aff890d8defa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 440,
+        "wires": [
+            [
+                "0909ed76c53c9bb6"
+            ]
+        ]
+    },
+    {
+        "id": "0909ed76c53c9bb6",
+        "type": "http request",
+        "z": "0440aff890d8defa",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 460,
+        "y": 440,
+        "wires": [
+            [
+                "8e7ecc70c86d6882"
+            ]
+        ]
+    },
+    {
+        "id": "8e7ecc70c86d6882",
+        "type": "json",
+        "z": "0440aff890d8defa",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 650,
+        "y": 440,
+        "wires": [
+            [
+                "c980d957c6232eb5"
+            ]
+        ]
+    },
+    {
+        "id": "c980d957c6232eb5",
+        "type": "function",
+        "z": "0440aff890d8defa",
+        "name": "Format Chart Data",
+        "func": "var soilTemp = msg.payload.soilTemp;\n\nif (Array.isArray(soilTemp)) {\n    msg.payload = {\n        place: soilTemp[1].place,\n        value: soilTemp[1].value,\n        unit: soilTemp[1].unit,\n        depth: soilTemp[1].depth.value,\n        depth_metric: soilTemp[1].depth.unit\n    }\n} else {\n    msg.payload = {\n        place: soilTemp.place,\n        value: soilTemp.value,\n        unit: soilTemp.unit,\n        depth: soilTemp.depth.value,\n        depth_metric: soilTemp.depth.unit\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 440,
+        "wires": [
+            [
+                "c87b35d4b1a3ab42"
+            ]
+        ]
+    },
+    {
+        "id": "c87b35d4b1a3ab42",
+        "type": "ui_gauge",
+        "z": "0440aff890d8defa",
+        "name": "",
+        "group": "21372801f8bb7fe1",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "gtype": "gage",
+        "title": "",
+        "label": "Soil Depth: {{msg.payload.depth}}{{msg.payload.depth_metric}}({{msg.payload.unit}})",
+        "format": "{{msg.payload.value}}",
+        "min": 0,
+        "max": "50",
+        "colors": [
+            "#1e90ff",
+            "#ffff00",
+            "#ff0000"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1070,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "5ba65e694b896a24",
+        "type": "inject",
+        "z": "e2117e1187183463",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 520,
+        "wires": [
+            [
+                "d7c0ee472b25d91d"
+            ]
+        ]
+    },
+    {
+        "id": "6a34f7f5a7235946",
+        "type": "function",
+        "z": "e2117e1187183463",
+        "name": "ForecastMaxtemp",
+        "func": "const weatherData = msg.payload.weatherForecast;\n\nconst forecastDates = weatherData.map((item) => item.forecastDate);\n\nlet chartData = {\n    series: ['Maximum Temperature'],\n    data: forecastDates,\n    labels: []\n};\n\nfor (let key of weatherData) {\n    chartData.labels.push(key.forecastDate);\n    chartData.data.push(key.forecastMaxtemp.value);\n}\n\n// msg.payload = msg.payload.weatherForecast[0].forecastDate;\nchartData.data = [chartData.data];\nmsg.payload = [chartData];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 320,
+        "wires": [
+            [
+                "962332281e27aa43",
+                "cceeaa9e3c23f33b"
+            ]
+        ]
+    },
+    {
+        "id": "d7c0ee472b25d91d",
+        "type": "http request",
+        "z": "e2117e1187183463",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=fnd&lang=sc",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 390,
+        "y": 520,
+        "wires": [
+            [
+                "9adb07e654a4532d"
+            ]
+        ]
+    },
+    {
+        "id": "9adb07e654a4532d",
+        "type": "json",
+        "z": "e2117e1187183463",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 530,
+        "y": 520,
+        "wires": [
+            [
+                "6a34f7f5a7235946",
+                "f8f127851741cd35",
+                "be13d649751ef2e1"
+            ]
+        ]
+    },
+    {
+        "id": "962332281e27aa43",
+        "type": "debug",
+        "z": "e2117e1187183463",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "f8f127851741cd35",
+        "type": "function",
+        "z": "e2117e1187183463",
+        "name": "ForecastMintemp",
+        "func": "const weatherData = msg.payload.weatherForecast;\n\nconst forecastDates = weatherData.map((item) => item.forecastDate);\n\nlet chartData = {\n    series: ['Minimum Temperature'],\n    data: forecastDates,\n    labels: []\n};\n\nfor (let key of weatherData) {\n    chartData.labels.push(key.forecastDate);\n    chartData.data.push(key.forecastMintemp.value);\n}\n\n// msg.payload = msg.payload.weatherForecast[0].forecastDate;\nchartData.data = [chartData.data];\nmsg.payload = [chartData];\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 480,
+        "wires": [
+            [
+                "a9782ca34f69e8f7",
+                "3639ae6a3e22d57f"
+            ]
+        ]
+    },
+    {
+        "id": "a9782ca34f69e8f7",
+        "type": "ui_chart",
+        "z": "e2117e1187183463",
+        "name": "",
+        "group": "2b359c35e2a6ae27",
+        "order": 3,
+        "width": 7,
+        "height": 3,
+        "label": "Min Temperature",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "Y-M-D",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "30",
+        "removeOlder": "7",
+        "removeOlderPoints": "7",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c061cb"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1030,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3639ae6a3e22d57f",
+        "type": "debug",
+        "z": "e2117e1187183463",
+        "name": "debug 51",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "be13d649751ef2e1",
+        "type": "function",
+        "z": "e2117e1187183463",
+        "name": "ForecastIconic",
+        "func": "const weatherData = msg.payload.weatherForecast;\n\nconst forecastDates = weatherData.map((item) => item.forecastDate);\n\nlet chartData = {\n    series: ['Iconic'],\n    data: forecastDates,\n    labels: [],\n    wind: [],\n    url: []\n};\n\nfor (let key of weatherData) {\n    chartData.labels.push(key.forecastDate);\n    chartData.data.push(key.ForecastIcon);\n    chartData.wind.push(key.forecastWind);\n    chartData.url.push(\"https://www.hko.gov.hk/images/HKOWxIconOutline/pic\" + key.ForecastIcon + \".png\");\n}\n\n// msg.payload = msg.payload.weatherForecast[0].forecastDate;\nchartData.data = [chartData.data];\nmsg.payload = [chartData];\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 620,
+        "wires": [
+            [
+                "cbc4d22c7a4e3d4b",
+                "d1e5ed032de8c708",
+                "059b51d27b65f7e7",
+                "480507b0d350d1ca",
+                "0ca6d182f4012078",
+                "89d58dbae9ddbcd2",
+                "684bb483247a6a70",
+                "591952dba4039dd0"
+            ]
+        ]
+    },
+    {
+        "id": "cbc4d22c7a4e3d4b",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "1",
+        "order": 6,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[0]}}</p>\n<script>\n \n</script>\n<img id='image0' src=\"{{msg.payload[0].url[0]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[0]}}</p>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 700,
+        "wires": [
+            [
+                "374c09b473d05b06"
+            ]
+        ]
+    },
+    {
+        "id": "059b51d27b65f7e7",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "2",
+        "order": 7,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[1]}}</p>\n<script>\n\n</script>\n<img id='image1' src=\"{{msg.payload[0].url[1]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[1]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1e5ed032de8c708",
+        "type": "debug",
+        "z": "e2117e1187183463",
+        "name": "debug 55",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "480507b0d350d1ca",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "3",
+        "order": 8,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[2]}}</p>\n<script>\n \n</script>\n<img id='image2' src=\"{{msg.payload[0].url[2]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[2]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0ca6d182f4012078",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "4",
+        "order": 9,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[3]}}</p>\n<img id='image3' src=\"{{msg.payload[0].url[3]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[3]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1050,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "89d58dbae9ddbcd2",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "5",
+        "order": 10,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[4]}}</p>\n<img id='image4' src=\"{{msg.payload[0].url[4]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[4]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1050,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "374c09b473d05b06",
+        "type": "debug",
+        "z": "e2117e1187183463",
+        "name": "debug 57",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "684bb483247a6a70",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "6",
+        "order": 11,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[5]}}</p>\n<img id='image5' src=\"{{msg.payload[0].url[5]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[5]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1050,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "591952dba4039dd0",
+        "type": "ui_template",
+        "z": "e2117e1187183463",
+        "group": "2b359c35e2a6ae27",
+        "name": "7",
+        "order": 12,
+        "width": 2,
+        "height": 2,
+        "format": "<p style=\"background-color:transparent !important\">{{msg.payload[0].labels[6]}}</p>\n<img id='image6' src=\"{{msg.payload[0].url[6]}}\" alt=\"Weather Icon\">\n\n<p style=\"background-color:transparent !important\">{{msg.payload[0].wind[6]}}</p>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1050,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cceeaa9e3c23f33b",
+        "type": "ui_chart",
+        "z": "e2117e1187183463",
+        "name": "",
+        "group": "2b359c35e2a6ae27",
+        "order": 1,
+        "width": 7,
+        "height": 3,
+        "label": "Max Temperature",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "Y-M-D",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "40",
+        "removeOlder": "7",
+        "removeOlderPoints": "7",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c061cb"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1050,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a05fb5da22b91156",
+        "type": "inject",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "c3f4ff9ff7be1b06",
+                "7a024be491f228a1",
+                "f6c2c2328e37600f",
+                "6a77da6eb6413de8"
+            ]
+        ]
+    },
+    {
+        "id": "f1cb5fd25fef64cb",
+        "type": "function",
+        "z": "791b313f3c932f2d",
+        "name": "function 6",
+        "func": "var qem = msg.payload;\nvar lat = msg.payload.lat;\nvar lon = msg.payload.lon;\nvar region = msg.payload.region;\n\n// msg.payload = { \"name\": \"Joe\", \"lat\": 51.31, \"lon\": 73 };\n\nvar places = [\n    { \"name\": \"Central Pier\", \"lat\": 22.2850, \"lon\": 114.1581, \"temp\": 23, \"wind_speed\": 14, \"air_quality\": \"Good\" },\n    { \"name\": \"Chek Lap Kok\", \"lat\": 22.3080, \"lon\": 113.9180, \"temp\": 24, \"wind_speed\": 18, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Cheung Chau\", \"lat\": 22.2045, \"lon\": 114.0333, \"temp\": 22, \"wind_speed\": 16, \"air_quality\": \"Good\" },\n    { \"name\": \"Cheung Chau Beach\", \"lat\": 22.2040, \"lon\": 114.0317, \"temp\": 21, \"wind_speed\": 12, \"air_quality\": \"Good\" },\n    { \"name\": \"Green Island\", \"lat\": 22.2717, \"lon\": 114.1211, \"temp\": 23.37, \"wind_speed\": 14.52, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Hong Kong Sea School\", \"lat\": 22.2833, \"lon\": 114.1583, \"temp\": 23, \"wind_speed\": 10, \"air_quality\": \"Good\" },\n    { \"name\": \"Kai Tak\", \"lat\": 22.3213, \"lon\": 114.1913, \"temp\": 24, \"wind_speed\": 20, \"air_quality\": \"Fair\" },\n    { \"name\": \"King's Park\", \"lat\": 22.3047, \"lon\": 114.1739, \"temp\": 23, \"wind_speed\": 12, \"air_quality\": \"Good\" },\n    { \"name\": \"Lamma Island\", \"lat\": 22.2133, \"lon\": 114.1000, \"temp\": 22, \"wind_speed\": 18, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Lau Fau Shan\", \"lat\": 22.4516, \"lon\": 113.9966, \"temp\": 25, \"wind_speed\": 22, \"air_quality\": \"Good\" },\n    { \"name\": \"Ngong Ping\", \"lat\": 22.2550, \"lon\": 113.9400, \"temp\": 21, \"wind_speed\": 15, \"air_quality\": \"Fair\" },\n    { \"name\": \"North Point\", \"lat\": 22.2874, \"lon\": 114.1916, \"temp\": 23, \"wind_speed\": 9, \"air_quality\": \"Good\" },\n    { \"name\": \"Peng Chau\", \"lat\": 22.2497, \"lon\": 114.0264, \"temp\": 22, \"wind_speed\": 13, \"air_quality\": \"Fair\" },\n    { \"name\": \"Sai Kung\", \"lat\": 22.3819, \"lon\": 114.2750, \"temp\": 24, \"wind_speed\": 16, \"air_quality\": \"Good\" },\n    { \"name\": \"Sha Chau\", \"lat\": 22.3392, \"lon\": 113.9291, \"temp\": 23, \"wind_speed\": 14, \"air_quality\": \"Good\" },\n    { \"name\": \"Sha Tin\", \"lat\": 22.3792, \"lon\": 114.1850, \"temp\": 23, \"wind_speed\": 8, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Shek Kong\", \"lat\": 22.3872, \"lon\": 113.9913, \"temp\": 24, \"wind_speed\": 10, \"air_quality\": \"Good\" },\n    { \"name\": \"Stanley\", \"lat\": 22.2213, \"lon\": 114.2107, \"temp\": 21, \"wind_speed\": 6, \"air_quality\": \"Fair\" },\n    { \"name\": \"Star Ferry\", \"lat\": 22.2874, \"lon\": 114.1695, \"temp\": 23, \"wind_speed\": 11, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Ta Kwu Ling\", \"lat\": 22.4974, \"lon\": 114.1244, \"temp\": 24, \"wind_speed\": 15, \"air_quality\": \"Good\" },\n    { \"name\": \"Tai Mei Tuk\", \"lat\": 22.4444, \"lon\": 114.1250, \"temp\": 22, \"wind_speed\": 14, \"air_quality\": \"Fair\" },\n    { \"name\": \"Tai Po Kau\", \"lat\": 22.4514, \"lon\": 114.2045, \"temp\": 23, \"wind_speed\": 13, \"air_quality\": \"Good\" },\n    { \"name\": \"Tap Mun\", \"lat\": 22.4542, \"lon\": 114.3037, \"temp\": 21, \"wind_speed\": 16, \"air_quality\": \"Fair\" },\n    { \"name\": \"Tate's Cairn\", \"lat\": 22.3858, \"lon\": 114.2050, \"temp\": 24, \"wind_speed\": 19, \"air_quality\": \"Good\" },\n    { \"name\": \"Tseung Kwan O\", \"lat\": 22.3107, \"lon\": 114.2600, \"temp\": 23, \"wind_speed\": 9, \"air_quality\": \"Good\" },\n    { \"name\": \"Tsing Yi\", \"lat\": 22.3651, \"lon\": 114.0927, \"temp\": 22, \"wind_speed\": 14, \"air_quality\": \"Fair\" },\n    { \"name\": \"Tuen Mun\", \"lat\": 22.3910, \"lon\": 113.9750, \"temp\": 23, \"wind_speed\": 10, \"air_quality\": \"Moderate\" },\n    { \"name\": \"Waglan Island\", \"lat\": 22.2475, \"lon\": 114.2706, \"temp\": 25, \"wind_speed\": 17, \"air_quality\": \"Good\" },\n    { \"name\": \"Wetland Park\", \"lat\": 22.4453, \"lon\": 114.0144, \"temp\": 22, \"wind_speed\": 8, \"air_quality\": \"Fair\" },\n    { \"name\": \"Wong Chuk Hang\", \"lat\": 22.2401, \"lon\": 114.1629, \"temp\": 23, \"wind_speed\": 12, \"air_quality\": \"Good\" }\n];\n\n\n// 使用 Node-RED 的 `node.send` 方法，逐个发送每个标记\nfor (var i = 0; i < places.length; i++) {\n    node.send({ payload: places[i] });\n}\n\n\nreturn msg;\n\n\n\n// { \"name\": \"Joe\", \"lat\": 51, \"lon\": -1.05 }",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 400,
+        "wires": [
+            [
+                "640b306270724ba0",
+                "f8696004b7967ec8"
+            ]
+        ]
+    },
+    {
+        "id": "640b306270724ba0",
+        "type": "ui_worldmap",
+        "z": "791b313f3c932f2d",
+        "group": "024e0dcf76a0fd81",
+        "order": 2,
+        "width": 13,
+        "height": 5,
+        "name": "hk_map",
+        "lat": "22.29232",
+        "lon": "114.17061",
+        "zoom": "10",
+        "layer": "OSMC",
+        "cluster": "19",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "true",
+        "showruler": "false",
+        "allowFileDrop": "true",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN,BU,RW,SN,TL,HM",
+        "maplist": "OSMG,OSMC,OSMH,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,HB",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 960,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "c3f4ff9ff7be1b06",
+        "type": "http request",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php?dataType=qem&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 400,
+        "wires": [
+            [
+                "528b2e9a87ae2e8b"
+            ]
+        ]
+    },
+    {
+        "id": "528b2e9a87ae2e8b",
+        "type": "json",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 590,
+        "y": 400,
+        "wires": [
+            [
+                "f1cb5fd25fef64cb"
+            ]
+        ]
+    },
+    {
+        "id": "f8696004b7967ec8",
+        "type": "debug",
+        "z": "791b313f3c932f2d",
+        "name": "debug 53",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f6c2c2328e37600f",
+        "type": "http request",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php?dataType=qem&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 240,
+        "wires": [
+            [
+                "9cb03bdeda0edffd"
+            ]
+        ]
+    },
+    {
+        "id": "6a77da6eb6413de8",
+        "type": "http request",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php?dataType=qem&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 160,
+        "wires": [
+            [
+                "180a98a1be469d28"
+            ]
+        ]
+    },
+    {
+        "id": "7a024be491f228a1",
+        "type": "http request",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/earthquake.php?dataType=qem&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 370,
+        "y": 320,
+        "wires": [
+            [
+                "5967ec91f2609ff8"
+            ]
+        ]
+    },
+    {
+        "id": "180a98a1be469d28",
+        "type": "json",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 160,
+        "wires": [
+            [
+                "5d6befb2acfa3004"
+            ]
+        ]
+    },
+    {
+        "id": "9cb03bdeda0edffd",
+        "type": "json",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 240,
+        "wires": [
+            [
+                "f6c399e35ccefa89"
+            ]
+        ]
+    },
+    {
+        "id": "5967ec91f2609ff8",
+        "type": "json",
+        "z": "791b313f3c932f2d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 550,
+        "y": 320,
+        "wires": [
+            [
+                "79a72fd8fc12c820"
+            ]
+        ]
+    },
+    {
+        "id": "5d6befb2acfa3004",
+        "type": "function",
+        "z": "791b313f3c932f2d",
+        "name": "wind speed",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f6c399e35ccefa89",
+        "type": "function",
+        "z": "791b313f3c932f2d",
+        "name": "temperature",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79a72fd8fc12c820",
+        "type": "function",
+        "z": "791b313f3c932f2d",
+        "name": "air quality",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f68d6ca095374eaf",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "Air Report",
+        "operation": "insert",
+        "x": 520,
+        "y": 300,
+        "wires": [
+            [
+                "039a532510f2c1f7"
+            ]
+        ]
+    },
+    {
+        "id": "567f582b245aa585",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Air Report",
+        "operation": "findOne",
+        "x": 700,
+        "y": 60,
+        "wires": [
+            [
+                "26cfd2a8af0e2c6a"
+            ]
+        ]
+    },
+    {
+        "id": "0faba44b955f2e57",
+        "type": "inject",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 60,
+        "wires": [
+            [
+                "9a35dd9b01f837ea"
+            ]
+        ]
+    },
+    {
+        "id": "9a35dd9b01f837ea",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 60,
+        "wires": [
+            [
+                "567f582b245aa585"
+            ]
+        ]
+    },
+    {
+        "id": "26cfd2a8af0e2c6a",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Get Last updateTime",
+        "func": "if(msg.payload.hasOwnProperty('update_time')) {\n    flow.set('lastPublish_date', msg.payload.update_time);\n} else {\n    flow.set('lastPublish_date', \"\");\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 60,
+        "wires": [
+            [
+                "fb31c4dbfc0189e8"
+            ]
+        ]
+    },
+    {
+        "id": "fb31c4dbfc0189e8",
+        "type": "http request",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://dashboard.data.gov.hk/api/aqhi-individual?format=json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "a82803c7e918ebeb"
+            ]
+        ]
+    },
+    {
+        "id": "a82803c7e918ebeb",
+        "type": "json",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "9f2f9cbac53ca3d3"
+            ]
+        ]
+    },
+    {
+        "id": "9834665a3e4f265b",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Air Report",
+        "operation": "find.toArray",
+        "x": 940,
+        "y": 380,
+        "wires": [
+            [
+                "921547989955319d",
+                "a8232241f5f57f9c"
+            ]
+        ]
+    },
+    {
+        "id": "921547989955319d",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Format Chart Data",
+        "func": "var airDataArray = Object.values(msg.payload);\nvar dataCount = airDataArray.length;\nvar placeSums = {};\n\nfor (var j = 0; j < dataCount; j++) {\n    var record = airDataArray[j].air.data;\n    for (var i = 0; i < record.length; i++) {\n        var station = record[i].station;\n        var aqhi = record[i].aqhi;\n\n        if (!placeSums.hasOwnProperty(station)) {\n            placeSums[station] = 0;\n        }\n        placeSums[station] += aqhi/24;\n    }\n}\n\nvar seriesArray = Object.keys(placeSums);\nvar dataArray = Object.values(placeSums);\nvar chartData = [{\n    \"series\": [\"AQHI\"],\n    \"data\": dataArray,\n    \"labels\": seriesArray\n}];\n\nmsg.payload = chartData;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 460,
+        "wires": [
+            [
+                "283d694736c85b85",
+                "c083d4f582a8b477"
+            ]
+        ]
+    },
+    {
+        "id": "e1120184219995db",
+        "type": "inject",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 380,
+        "wires": [
+            [
+                "3615fca542c84c6d"
+            ]
+        ]
+    },
+    {
+        "id": "6b61d5f467cf9a1f",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "New Record Available",
+        "func": "lastPublish_date = flow.get('lastPublish_date');\n\nvar publish_dateTemp = new Date(msg.payload.update_time)\nvar publish_date = publish_dateTemp.toISOString() ;\n\nif(publish_date > lastPublish_date) {\n    msg.needUpdate = true ;\n    msg.payload.update_time=publish_date;\n} else {\n    msg.needUpdate = false ;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 2,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 180,
+        "wires": [
+            [
+                "57b23f79fbaddb95"
+            ]
+        ]
+    },
+    {
+        "id": "57b23f79fbaddb95",
+        "type": "switch",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Need Update",
+        "property": "needUpdate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 200,
+        "y": 280,
+        "wires": [
+            [
+                "c32f7dd94e7215c9"
+            ],
+            [
+                "f68d6ca095374eaf"
+            ]
+        ]
+    },
+    {
+        "id": "c32f7dd94e7215c9",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "No Update",
+        "func": "msg.payload = \"No Update\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3615fca542c84c6d",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Construct Date Range",
+        "func": "var date = new Date();\nvar day = date.getDate() ;\nvar month = date.getMonth();\nvar year = date.getFullYear();\nvar hour = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\nvar st, et ;\nvar minMilliSeconds = 60 * 1000;\nvar hourMilliSeconds = 60 * minMilliSeconds;\nvar dayMilliSeconds = 24 * hourMilliSeconds;\nvar duration = 1 * dayMilliSeconds;\n\net = new Date() ;\net.setSeconds(seconds/10*10);\net.setHours(hour+8);\nst = new Date() ;\nst.setHours(hour+8);\nst.setTime(et.getTime() - duration);\n\nmsg.startTime = st ;\nmsg.endTime = et ;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 380,
+        "wires": [
+            [
+                "f8f0db2f4c2f7249"
+            ]
+        ]
+    },
+    {
+        "id": "f8f0db2f4c2f7249",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Construct Queries",
+        "func": "var st = msg.startTime;\nvar et = msg.endTime;\n\nvar stts = st.getTime();\nvar etts = et.getTime();\n\nvar ststr=st.toISOString();\nvar etstr=et.toISOString();\n\nvar query = { \"update_time\": { $gt: ststr, $lt: etstr} };\n\nmsg.payload = query;\nmsg.ststr = ststr ;\nmsg.etstr = etstr ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 380,
+        "wires": [
+            [
+                "9834665a3e4f265b"
+            ]
+        ]
+    },
+    {
+        "id": "c083d4f582a8b477",
+        "type": "debug",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "9f2f9cbac53ca3d3",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "convertion",
+        "func": "var airrDataArray = msg.payload;\nvar convert={\"air\":{\"data\":airrDataArray}};\n\nmsg.payload=convert;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 180,
+        "wires": [
+            [
+                "4c60036dca6733b1"
+            ]
+        ]
+    },
+    {
+        "id": "4c60036dca6733b1",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "add attribute",
+        "func": "var a=msg.payload;\nvar addtemp = new Date(msg.payload.air.data[0].publish_date);\nvar add=addtemp.toISOString();\n\na[\"update_time\"]=add;\n\nmsg.payload=a;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "6b61d5f467cf9a1f"
+            ]
+        ]
+    },
+    {
+        "id": "039a532510f2c1f7",
+        "type": "debug",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "9afec7f261b31303",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "Air Report",
+        "operation": "insert",
+        "x": 460,
+        "y": 820,
+        "wires": [
+            [
+                "54471d6816401bfe"
+            ]
+        ]
+    },
+    {
+        "id": "f2827694d85175ca",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Air Report",
+        "operation": "findOne",
+        "x": 720,
+        "y": 580,
+        "wires": [
+            [
+                "d83089080e25ebc0"
+            ]
+        ]
+    },
+    {
+        "id": "17a1838d712efe51",
+        "type": "inject",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 580,
+        "wires": [
+            [
+                "40885a6b16ec9e5f"
+            ]
+        ]
+    },
+    {
+        "id": "40885a6b16ec9e5f",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 580,
+        "wires": [
+            [
+                "f2827694d85175ca"
+            ]
+        ]
+    },
+    {
+        "id": "d83089080e25ebc0",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Get Last updateTime",
+        "func": "var now = new Date();\n\nnow.setDate(now.getDate() - 10);\n\nvar tenDaysAgo = now.toISOString();\n\nmsg.payload = {\n    startDate: tenDaysAgo,\n    endDate: (new Date()).toISOString()\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 580,
+        "wires": [
+            [
+                "3c6e64bf2e2432da"
+            ]
+        ]
+    },
+    {
+        "id": "3c6e64bf2e2432da",
+        "type": "http request",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://dashboard.data.gov.hk/api/aqhi-individual?format=json",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 160,
+        "y": 680,
+        "wires": [
+            [
+                "5d36b49d02597cc8"
+            ]
+        ]
+    },
+    {
+        "id": "5d36b49d02597cc8",
+        "type": "json",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 350,
+        "y": 680,
+        "wires": [
+            [
+                "2ef3affa5be5b353"
+            ]
+        ]
+    },
+    {
+        "id": "4d40ebdfc8cf20a9",
+        "type": "mongodb3 in",
+        "z": "0ecdaa6bfdbc859e",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Air Report",
+        "operation": "find.toArray",
+        "x": 900,
+        "y": 920,
+        "wires": [
+            [
+                "a057f761e63669f7"
+            ]
+        ]
+    },
+    {
+        "id": "a057f761e63669f7",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Format Chart Data",
+        "func": "var airDataArray = Object.values(msg.payload);\nvar placesData = {};\nvar countData = {};\n\nairDataArray.forEach(function (record) {\n    record.air.data.forEach(function (dataPoint) {\n        var date = new Date(record.update_time);\n        var dayKey = date.toISOString().split('T')[0];\n\n        if (!placesData[dataPoint.station]) {\n            placesData[dataPoint.station] = {};\n            countData[dataPoint.station] = {};\n        }\n        if (!placesData[dataPoint.station][dayKey]) {\n            placesData[dataPoint.station][dayKey] = 0;\n            countData[dataPoint.station][dayKey] = 0;\n        }\n        placesData[dataPoint.station][dayKey] += dataPoint.aqhi;\n        countData[dataPoint.station][dayKey] += 1;\n    });\n});\n\nvar chartData = {\n    series: Object.keys(placesData),\n    data: [],\n    labels: []\n};\n\nvar firstStation = chartData.series[0];\nchartData.labels = Object.keys(placesData[firstStation]).sort(); // 日期排序\n\nchartData.series.forEach(function (station) {\n    var stationData = [];\n    chartData.labels.forEach(function (date) {\n        var avg = (placesData[station][date] || 0) / (countData[station][date] || 1); // 计算平均值，如果没有记录，则默认为0\n        stationData.push(avg);\n    });\n    chartData.data.push(stationData);\n});\nmsg.payload = [chartData];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 1020,
+        "wires": [
+            [
+                "8d956c084577777a",
+                "9706416f7bd3a97e"
+            ]
+        ]
+    },
+    {
+        "id": "6e1e55fa90838942",
+        "type": "inject",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 920,
+        "wires": [
+            [
+                "4052d361c4292a36"
+            ]
+        ]
+    },
+    {
+        "id": "453764e9a64db87b",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "New Record Available",
+        "func": "lastPublish_date = flow.get('lastPublish_date');\n\nvar publish_dateTemp = new Date(msg.payload.update_time)\nvar publish_date = publish_dateTemp.toISOString() ;\n\nif(publish_date > lastPublish_date) {\n    msg.needUpdate = true ;\n    msg.payload.update_time=publish_date;\n} else {\n    msg.needUpdate = false ;\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 2,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 680,
+        "wires": [
+            [
+                "6949b25c825d86f8"
+            ]
+        ]
+    },
+    {
+        "id": "6949b25c825d86f8",
+        "type": "switch",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Need Update",
+        "property": "needUpdate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 760,
+        "wires": [
+            [
+                "48d1fd708aed979e"
+            ],
+            [
+                "9afec7f261b31303"
+            ]
+        ]
+    },
+    {
+        "id": "48d1fd708aed979e",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "No Update",
+        "func": "msg.payload = \"No Update\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4052d361c4292a36",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Construct Date Range",
+        "func": "var date = new Date();\nvar day = date.getDate();\nvar month = date.getMonth();\nvar year = date.getFullYear();\nvar hour = date.getHours();\nvar minutes = date.getMinutes();\nvar seconds = date.getSeconds();\nvar st, et;\nvar dayMilliSeconds = 24 * 60 * 60 * 1000;\nvar duration = 10 * dayMilliSeconds;\n\net = new Date();\net.setSeconds(Math.floor(seconds / 10) * 10);\net.setHours(hour + 8);\n\nst = new Date(et);\nst.setDate(et.getDate() - 10);\n\nmsg.startTime = st;\nmsg.endTime = et;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 920,
+        "wires": [
+            [
+                "240bc87e6ae3e159"
+            ]
+        ]
+    },
+    {
+        "id": "240bc87e6ae3e159",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "Construct Queries",
+        "func": "var st = msg.startTime;\nvar et = msg.endTime;\n\nvar stts = st.getTime();\nvar etts = et.getTime();\n\nvar ststr=st.toISOString();\nvar etstr=et.toISOString();\n\nvar query = { \"update_time\": { $gt: ststr, $lt: etstr} };\n\nmsg.payload = query;\nmsg.ststr = ststr ;\nmsg.etstr = etstr ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 920,
+        "wires": [
+            [
+                "4d40ebdfc8cf20a9"
+            ]
+        ]
+    },
+    {
+        "id": "8d956c084577777a",
+        "type": "debug",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "2ef3affa5be5b353",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "convertion",
+        "func": "var airrDataArray = msg.payload;\nvar convert={\"air\":{\"data\":airrDataArray}};\n\nmsg.payload=convert;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 680,
+        "wires": [
+            [
+                "76ca3e8c6e1197f6"
+            ]
+        ]
+    },
+    {
+        "id": "76ca3e8c6e1197f6",
+        "type": "function",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "add attribute",
+        "func": "var a=msg.payload;\nvar addtemp = new Date(msg.payload.air.data[0].publish_date);\nvar add=addtemp.toISOString();\na[\"update_time\"]=add;\n\nmsg.payload=a;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 680,
+        "wires": [
+            [
+                "453764e9a64db87b"
+            ]
+        ]
+    },
+    {
+        "id": "54471d6816401bfe",
+        "type": "debug",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "283d694736c85b85",
+        "type": "ui_chart",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "group": "0d1eba9924f01b44",
+        "order": 1,
+        "width": 15,
+        "height": 2,
+        "label": "Air Quality",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9706416f7bd3a97e",
+        "type": "ui_chart",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "",
+        "group": "0d1eba9924f01b44",
+        "order": 2,
+        "width": 15,
+        "height": 2,
+        "label": "Air Quality Per Day",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "10",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 490,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8232241f5f57f9c",
+        "type": "debug",
+        "z": "0ecdaa6bfdbc859e",
+        "name": "debug 49",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "a608c60dfa59a7bb",
+        "type": "mongodb3 in",
+        "z": "fba5643d2451c57a",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "Wind Report",
+        "operation": "insert",
+        "x": 490,
+        "y": 280,
+        "wires": [
+            [
+                "7f2df714431735fc"
+            ]
+        ]
+    },
+    {
+        "id": "90f1f03dd2499208",
+        "type": "mongodb3 in",
+        "z": "fba5643d2451c57a",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Wind Report",
+        "operation": "findOne",
+        "x": 720,
+        "y": 80,
+        "wires": [
+            [
+                "5de46542a33f067b"
+            ]
+        ]
+    },
+    {
+        "id": "bcb907e04c802ea1",
+        "type": "inject",
+        "z": "fba5643d2451c57a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "be722860f67f8da6"
+            ]
+        ]
+    },
+    {
+        "id": "be722860f67f8da6",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 80,
+        "wires": [
+            [
+                "90f1f03dd2499208"
+            ]
+        ]
+    },
+    {
+        "id": "5de46542a33f067b",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "Get Last updateTime",
+        "func": "if(msg.payload.hasOwnProperty('updateTime')) {\n    flow.set('lastUpdateTime', msg.payload.updateTime);\n} else {\n    flow.set('lastUpdateTime', \"\");\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 80,
+        "wires": [
+            [
+                "1c52f44a1fe57932"
+            ]
+        ]
+    },
+    {
+        "id": "1c52f44a1fe57932",
+        "type": "http request",
+        "z": "fba5643d2451c57a",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/hko_data/regional-weather/latest_10min_wind.csv",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 160,
+        "y": 160,
+        "wires": [
+            [
+                "bd1e65dde60cb790"
+            ]
+        ]
+    },
+    {
+        "id": "9d6e44b7f9f8a895",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "New Record Available",
+        "func": "let lastUpdateTime = flow.get('lastUpdateTime');\nif (msg.payload.length == 0){\n    msg.needUpdate = false;\n} \nelse {\n    var temp = msg.payload[0][\"Date time\"] + ''\n    node.log(temp);\n    var updateTimeTemp = new Date(temp.substring(0,4),\n     temp.substring(4,6), temp.substring(6,8), temp.substring(8,10))\n    var updateTime = updateTimeTemp.toISOString();  \n    \n    msg.payload = {\n        data: msg.payload,\n        updateTime: updateTime,\n        lastUpdateTime: lastUpdateTime\n    }\n    if (updateTime > lastUpdateTime) {\n        msg.needUpdate = true;\n        msg.payload.updateTime = updateTime;\n    } else {\n        msg.needUpdate = false;\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 160,
+        "wires": [
+            [
+                "855fdbc5f83229d6",
+                "2cc38e987916f3c9"
+            ]
+        ]
+    },
+    {
+        "id": "6c5124f92f3b0f5b",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "No Update",
+        "func": "msg.payload = \"No Update\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "840e16f63d2b07b9",
+        "type": "mongodb3 in",
+        "z": "fba5643d2451c57a",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Wind Report",
+        "operation": "find.toArray",
+        "x": 580,
+        "y": 380,
+        "wires": [
+            [
+                "7cd9538f99390cac",
+                "15697c7580d982e7"
+            ]
+        ]
+    },
+    {
+        "id": "7cd9538f99390cac",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "Format Chart Data",
+        "func": "let len = Object.keys(msg.payload).length\nconst data = msg.payload[len - 1].data\n\nlet chartData = {\n    series: ['WInd'],\n    data: [],\n    labels: []\n};\nconsole.log(typeof data)\nfor (let i = 0; i < data.length; i++) {\n    let speed = data[i]['10-Minute Maximum Gust(km/hour)']\n    if (speed == 'N/A') {\n        speed = 0\n    }\n    chartData.data.push(speed)\n    chartData.labels.push(data[i][\"Automatic Weather Station\"])\n}\n\nmsg.payload = [chartData];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 870,
+        "y": 340,
+        "wires": [
+            [
+                "7925cb751a1692f1"
+            ]
+        ]
+    },
+    {
+        "id": "be723fe991cc3e64",
+        "type": "inject",
+        "z": "fba5643d2451c57a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "iso",
+        "payloadType": "date",
+        "x": 160,
+        "y": 380,
+        "wires": [
+            [
+                "d956024c730fe2bb"
+            ]
+        ]
+    },
+    {
+        "id": "7f2df714431735fc",
+        "type": "debug",
+        "z": "fba5643d2451c57a",
+        "name": "test",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.forecastWind",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 690,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d956024c730fe2bb",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "function 1",
+        "func": "msg.payload = [\n    {\n        \"$query\": {},\n        \"$limit\": 2\n    },\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 380,
+        "wires": [
+            [
+                "840e16f63d2b07b9"
+            ]
+        ]
+    },
+    {
+        "id": "bd1e65dde60cb790",
+        "type": "csv",
+        "z": "fba5643d2451c57a",
+        "name": "Wind csv",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "mult",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "9d6e44b7f9f8a895"
+            ]
+        ]
+    },
+    {
+        "id": "855fdbc5f83229d6",
+        "type": "debug",
+        "z": "fba5643d2451c57a",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "15697c7580d982e7",
+        "type": "function",
+        "z": "fba5643d2451c57a",
+        "name": "max data",
+        "func": "let len = Object.keys(msg.payload).length\n\nlet chartData = {\n    series: ['Max Wind Speed'],\n    data: [],\n    labels: []\n};\n\nfor(let key in msg.payload){\n    let item = msg.payload[key]\n\n    if(!item.data){\n        continue\n    } else{\n        let time = item.updateTime.split('T')[0]\n        let WindTotal = 0\n        let maxSpeed = 0\n        for(let i=0;i<item.data.length;i++){\n            let temp = item.data[i][\"10-Minute Mean Speed(km/hour)\"]\n            if (temp == 'N/A') {\n                temp = 0\n            }\n            maxSpeed = maxSpeed > temp? maxSpeed:temp\n        }\n        chartData.data.push(maxSpeed)\n        chartData.labels.push(time)\n    }\n}\nchartData.data = [chartData.data]\nmsg.payload = [chartData];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 840,
+        "y": 440,
+        "wires": [
+            [
+                "34919fdb33385153"
+            ]
+        ]
+    },
+    {
+        "id": "34919fdb33385153",
+        "type": "ui_chart",
+        "z": "fba5643d2451c57a",
+        "name": "",
+        "group": "ae63f15f9067116f",
+        "order": 2,
+        "width": 15,
+        "height": "3",
+        "label": "Max Wind Speed per Day",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "Y-M-D",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "70",
+        "removeOlder": "3",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1070,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7925cb751a1692f1",
+        "type": "ui_chart",
+        "z": "fba5643d2451c57a",
+        "name": "",
+        "group": "ae63f15f9067116f",
+        "order": 1,
+        "width": 15,
+        "height": "3",
+        "label": "Wind Speed",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "Place",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cc38e987916f3c9",
+        "type": "switch",
+        "z": "fba5643d2451c57a",
+        "name": "Need Update",
+        "property": "needUpdate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "6c5124f92f3b0f5b"
+            ],
+            [
+                "a608c60dfa59a7bb"
+            ]
+        ]
+    },
+    {
+        "id": "9832beb549a8f806",
+        "type": "mongodb3 in",
+        "z": "b04ca0c9181a792f",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "Rainfall Report",
+        "operation": "insert",
+        "x": 1100,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fede294fcc07b411",
+        "type": "mongodb3 in",
+        "z": "b04ca0c9181a792f",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Rainfall Report",
+        "operation": "findOne",
+        "x": 720,
+        "y": 100,
+        "wires": [
+            [
+                "937afa7ae223eb2e"
+            ]
+        ]
+    },
+    {
+        "id": "a1889ef813b2e301",
+        "type": "inject",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 100,
+        "wires": [
+            [
+                "7b6456f41ab6dc8c"
+            ]
+        ]
+    },
+    {
+        "id": "7b6456f41ab6dc8c",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 100,
+        "wires": [
+            [
+                "fede294fcc07b411"
+            ]
+        ]
+    },
+    {
+        "id": "937afa7ae223eb2e",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "Get Last updateTime",
+        "func": "if(msg.payload.hasOwnProperty('updateTime')) {\n    flow.set('lastUpdateTime', msg.payload.updateTime);\n} else {\n    flow.set('lastUpdateTime', \"\");\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 100,
+        "wires": [
+            [
+                "d31d36901ccec93c"
+            ]
+        ]
+    },
+    {
+        "id": "d31d36901ccec93c",
+        "type": "http request",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "f9e15736e044d7d2"
+            ]
+        ]
+    },
+    {
+        "id": "f9e15736e044d7d2",
+        "type": "json",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "2bc3cb7bf1b3fc5b"
+            ]
+        ]
+    },
+    {
+        "id": "2bc3cb7bf1b3fc5b",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "New Record Available",
+        "func": "let lastUpdateTime = flow.get('lastUpdateTime');\n\nvar updateTimeTemp = new Date(msg.payload.updateTime)\nvar updateTime = updateTimeTemp.toISOString() ;\n\nif(updateTime > lastUpdateTime) {\n    msg.needUpdate = true ;\n    msg.payload.updateTime = updateTime ;\n} else {\n    msg.needUpdate = false ;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 200,
+        "wires": [
+            [
+                "1c5c5f5c17175e4f"
+            ]
+        ]
+    },
+    {
+        "id": "1c5c5f5c17175e4f",
+        "type": "switch",
+        "z": "b04ca0c9181a792f",
+        "name": "Need Update",
+        "property": "needUpdate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 820,
+        "y": 200,
+        "wires": [
+            [
+                "458a033ea35607a9"
+            ],
+            [
+                "9832beb549a8f806"
+            ]
+        ]
+    },
+    {
+        "id": "458a033ea35607a9",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "No Update",
+        "func": "msg.payload = \"No Update\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1050,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "145416d946fb01e4",
+        "type": "inject",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 340,
+        "wires": [
+            [
+                "3ce7bfe725b54b0f"
+            ]
+        ]
+    },
+    {
+        "id": "3ce7bfe725b54b0f",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 340,
+        "wires": [
+            [
+                "683bd94c0832d3d0"
+            ]
+        ]
+    },
+    {
+        "id": "683bd94c0832d3d0",
+        "type": "mongodb3 in",
+        "z": "b04ca0c9181a792f",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Rainfall Report",
+        "operation": "findOne",
+        "x": 720,
+        "y": 340,
+        "wires": [
+            [
+                "50f5931f90533038",
+                "1035ceb1d734b8b2"
+            ]
+        ]
+    },
+    {
+        "id": "50f5931f90533038",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "Format Chart Data",
+        "func": "const rainfallDataArray = msg.payload.rainfall.data.filter((item)=>{return item.main===\"FALSE\"});\n\nconst places = rainfallDataArray.map((item) => {\n    return item.place\n})\n\nconst rainfall = rainfallDataArray.map((item) => {\n    return item.max\n})\n\nconst label = msg.payload.rainfall.startTime\n\nconst chartData = [{\n        \"series\": [\"rainfall\"],\n        \"data\": rainfall,\n        \"labels\": places\n}]\n\nmsg.payload = chartData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 440,
+        "wires": [
+            [
+                "eb064a1a45260a58"
+            ]
+        ]
+    },
+    {
+        "id": "eb064a1a45260a58",
+        "type": "ui_chart",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "group": "b440611167c0891e",
+        "order": 1,
+        "width": 15,
+        "height": "4",
+        "label": "Rainfall Chart",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "-1",
+        "ymax": "20",
+        "removeOlder": "24",
+        "removeOlderPoints": "24",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 460,
+        "y": 440,
+        "wires": [
+            [
+                "ee7494d279ec906f"
+            ]
+        ]
+    },
+    {
+        "id": "ee7494d279ec906f",
+        "type": "debug",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1035ceb1d734b8b2",
+        "type": "debug",
+        "z": "b04ca0c9181a792f",
+        "name": "debug 35",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "41dbb92fc14a7343",
+        "type": "inject",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 560,
+        "wires": [
+            [
+                "4b3b39b29d302a06"
+            ]
+        ]
+    },
+    {
+        "id": "4b3b39b29d302a06",
+        "type": "http request",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://data.weather.gov.hk/weatherAPI/opendata/hourlyRainfall.php",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 400,
+        "y": 560,
+        "wires": [
+            [
+                "e10af1b38b37d7a7"
+            ]
+        ]
+    },
+    {
+        "id": "e10af1b38b37d7a7",
+        "type": "json",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "c2a174cc082b0dfa"
+            ]
+        ]
+    },
+    {
+        "id": "fc6f96fa1a49c40e",
+        "type": "mongodb3 in",
+        "z": "b04ca0c9181a792f",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "hourlyrainfall",
+        "operation": "insertOne",
+        "x": 980,
+        "y": 600,
+        "wires": [
+            [
+                "34a41198b8c60887"
+            ]
+        ]
+    },
+    {
+        "id": "c2a174cc082b0dfa",
+        "type": "function",
+        "z": "b04ca0c9181a792f",
+        "name": "hourlyrainfall",
+        "func": "const rainfallDataArray = msg.payload.hourlyRainfall.map((item) => {\n    return {\n        place: item.automaticWeatherStation,\n        max: item.value,\n    };\n});\n\nconst place = rainfallDataArray.map((item) => item.place);\nconst hourlyrainfall = rainfallDataArray.map((item) => item.max);\n\nconst label = msg.payload.obsTime;\n\nconst chartData = [{\n    \"series\": [\"hourlyrainfall\"],\n    \"data\": hourlyrainfall,\n    \"labels\": place\n}];\n\nmsg.payload = chartData;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 560,
+        "wires": [
+            [
+                "fc6f96fa1a49c40e",
+                "23c639cf6b2b47dd"
+            ]
+        ]
+    },
+    {
+        "id": "34a41198b8c60887",
+        "type": "debug",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "23c639cf6b2b47dd",
+        "type": "ui_chart",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "group": "b440611167c0891e",
+        "order": 2,
+        "width": 15,
+        "height": "4",
+        "label": "HourlyRainfall Chart",
+        "chartType": "radar",
+        "legend": "false",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "50",
+        "removeOlder": "24",
+        "removeOlderPoints": "24",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 960,
+        "y": 520,
+        "wires": [
+            [
+                "8202ceec1a9af6fa"
+            ]
+        ]
+    },
+    {
+        "id": "8202ceec1a9af6fa",
+        "type": "debug",
+        "z": "b04ca0c9181a792f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "50441d4fba2592bc",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "",
+        "collection": "Travel Report",
+        "operation": "insert",
+        "x": 470,
+        "y": 320,
+        "wires": [
+            [
+                "75639b76f0cdd2bb"
+            ]
+        ]
+    },
+    {
+        "id": "655ba0b69b98c564",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Last Record",
+        "collection": "Travel Report",
+        "operation": "findOne",
+        "x": 700,
+        "y": 80,
+        "wires": [
+            [
+                "8bdbf5b3967cd2b6"
+            ]
+        ]
+    },
+    {
+        "id": "79bca486552c910a",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Retrieve Last Record Query",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 80,
+        "wires": [
+            [
+                "655ba0b69b98c564"
+            ]
+        ]
+    },
+    {
+        "id": "8bdbf5b3967cd2b6",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Get Last updateTime",
+        "func": "if(msg.payload.hasOwnProperty('updateTime')) {\n    flow.set('lastUpdateTime', msg.payload.updateTime);\n} else {\n    var date = new Date(\"2023-11-16\");\n    var newdate = date.toISOString();\n    flow.set('lastUpdateTime', newdate);\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 980,
+        "y": 80,
+        "wires": [
+            [
+                "56539fd903098e5e"
+            ]
+        ]
+    },
+    {
+        "id": "56539fd903098e5e",
+        "type": "http request",
+        "z": "452249c593ca4764",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://www.immd.gov.hk/opendata/eng/transport/immigration_clearance/statistics_on_daily_passenger_traffic.csv",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "0efb9d2d2a53c245"
+            ]
+        ]
+    },
+    {
+        "id": "b181d55a863fb61d",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "New Record Available",
+        "func": "let lastUpdateTime = flow.get('lastUpdateTime');\n\nvar originalDate = msg.payload.Date;\nvar parts = originalDate.split('-'); \n\nvar reformattedDate = parts[2] + '-' + parts[1] + '-' + parts[0];\nvar updateTimeTemp = new Date(reformattedDate)\nvar updateTime = updateTimeTemp.toISOString() ;\nif(updateTime > lastUpdateTime) {\n    msg.needUpdate = true ;\n    msg.payload.updateTime = updateTime ;\n} else {\n    msg.needUpdate = false ;\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 820,
+        "y": 180,
+        "wires": [
+            [
+                "33d66efdfe44757f"
+            ]
+        ]
+    },
+    {
+        "id": "33d66efdfe44757f",
+        "type": "switch",
+        "z": "452249c593ca4764",
+        "name": "Need Update",
+        "property": "needUpdate",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "jsonata"
+            },
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "jsonata"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 160,
+        "y": 300,
+        "wires": [
+            [
+                "627b1af7650a2f54"
+            ],
+            [
+                "50441d4fba2592bc"
+            ]
+        ]
+    },
+    {
+        "id": "627b1af7650a2f54",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "No Update",
+        "func": "msg.payload = \"No Update\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "53183d90ae5d0776",
+        "type": "inject",
+        "z": "452249c593ca4764",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "79bca486552c910a"
+            ]
+        ]
+    },
+    {
+        "id": "0efb9d2d2a53c245",
+        "type": "csv",
+        "z": "452249c593ca4764",
+        "name": "Travel Report csv",
+        "sep": ",",
+        "hdrin": true,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\n",
+        "temp": "",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": "",
+        "include_null_values": "",
+        "x": 450,
+        "y": 180,
+        "wires": [
+            [
+                "b181d55a863fb61d"
+            ]
+        ]
+    },
+    {
+        "id": "75639b76f0cdd2bb",
+        "type": "debug",
+        "z": "452249c593ca4764",
+        "name": "debug 44",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "0e8440e8b93d60ae",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Travel Report",
+        "operation": "find.toArray",
+        "x": 660,
+        "y": 440,
+        "wires": [
+            [
+                "d36a01e9d972931d"
+            ]
+        ]
+    },
+    {
+        "id": "732559779f53565d",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Format Chart Data",
+        "func": "let controlPointsData = {};\nlet labels = [];\n\nfor (let key in msg.payload) {\n    if (!isNaN(key)) {\n        let record = msg.payload[key];\n        let controlPoint = record['Control Point'];\n        let total = record['Total'];\n        let date = record['Date'];\n\n        if (labels.indexOf(date) === -1) {\n            labels.push(date);\n        }\n\n        if (!controlPointsData[controlPoint]) {\n            controlPointsData[controlPoint] = [];\n        }\n\n        controlPointsData[controlPoint].push(total);\n    }\n}\n\nlet series = Object.keys(controlPointsData);\nlet data = series.map(controlPoint => {\n    return { \"series\": controlPoint, \"data\": controlPointsData[controlPoint] };\n});\n\nmsg.payload = [{\n    \"series\": series,\n    \"data\": data.map(cp => cp.data),\n    \"labels\": labels.reverse()\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 540,
+        "wires": [
+            [
+                "ce8148744a1e1444"
+            ]
+        ]
+    },
+    {
+        "id": "d4d6473fc1753d2c",
+        "type": "inject",
+        "z": "452249c593ca4764",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2700",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 440,
+        "wires": [
+            [
+                "a238ae6ce7a294b2"
+            ]
+        ]
+    },
+    {
+        "id": "a238ae6ce7a294b2",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Construct Queries",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "0e8440e8b93d60ae"
+            ]
+        ]
+    },
+    {
+        "id": "d36a01e9d972931d",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "function 2",
+        "func": "let evenKeyObjects = {};\n\nfor (let key in msg.payload) {\n    if (parseInt(key) % 2 === 0) {\n        evenKeyObjects[key] = msg.payload[key];\n    }\n}\n\nmsg.payload = evenKeyObjects;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 440,
+        "wires": [
+            [
+                "732559779f53565d"
+            ]
+        ]
+    },
+    {
+        "id": "ce8148744a1e1444",
+        "type": "ui_chart",
+        "z": "452249c593ca4764",
+        "name": "",
+        "group": "2d6810adfe7d2d8f",
+        "order": 1,
+        "width": 15,
+        "height": "3",
+        "label": "Departure Per Day",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c62485ca4c1b8365",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Travel Report",
+        "operation": "find.toArray",
+        "x": 660,
+        "y": 640,
+        "wires": [
+            [
+                "c025e9dee69d8a52"
+            ]
+        ]
+    },
+    {
+        "id": "f7507f87050fcedc",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Format Chart Data",
+        "func": "let controlPointsData = {};\nlet labels = [];\n\nfor (let key in msg.payload) {\n    if (!isNaN(key)) {\n        let record = msg.payload[key];\n        let controlPoint = record['Control Point'];\n        let total = record['Total'];\n        let date = record['Date'];\n\n        if (labels.indexOf(date) === -1) {\n            labels.push(date);\n        }\n\n        if (!controlPointsData[controlPoint]) {\n            controlPointsData[controlPoint] = [];\n        }\n\n        controlPointsData[controlPoint].push(total);\n    }\n}\nlabels = labels.reverse()\n\nlet series = Object.keys(controlPointsData);\nlet data = series.map(controlPoint => {\n    return { \"series\": controlPoint, \"data\": controlPointsData[controlPoint] };\n});\n\nmsg.payload = [{\n    \"series\": series,\n    \"data\": data.map(cp => cp.data),\n    \"labels\": labels\n}];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 740,
+        "wires": [
+            [
+                "194e21591641a454"
+            ]
+        ]
+    },
+    {
+        "id": "afe2efc927a3e64c",
+        "type": "inject",
+        "z": "452249c593ca4764",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2700",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 640,
+        "wires": [
+            [
+                "b19a76cd691ae58e"
+            ]
+        ]
+    },
+    {
+        "id": "b19a76cd691ae58e",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Construct Queries",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 640,
+        "wires": [
+            [
+                "c62485ca4c1b8365"
+            ]
+        ]
+    },
+    {
+        "id": "c025e9dee69d8a52",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "function 3",
+        "func": "let evenKeyObjects = {};\n\nfor (let key in msg.payload) {\n    if (parseInt(key) % 2 === 1) {\n        evenKeyObjects[key] = msg.payload[key];\n    }\n}\n\nmsg.payload = evenKeyObjects;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 640,
+        "wires": [
+            [
+                "f7507f87050fcedc"
+            ]
+        ]
+    },
+    {
+        "id": "194e21591641a454",
+        "type": "ui_chart",
+        "z": "452249c593ca4764",
+        "name": "",
+        "group": "2d6810adfe7d2d8f",
+        "order": 2,
+        "width": 15,
+        "height": "3",
+        "label": "Arrival Per Day",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 420,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "08582cbdb1b78c5a",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Travel Report",
+        "operation": "find.toArray",
+        "x": 680,
+        "y": 820,
+        "wires": [
+            [
+                "2eb82f94bb6345d6"
+            ]
+        ]
+    },
+    {
+        "id": "f8540ddcd4d255a4",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Format Chart Data",
+        "func": "let chartData = {\n    labels: [],\n    series: ['Total'],\n    data: [[]]\n};\n\nmsg.payload.forEach(function (item) {\n    chartData.labels.push(item['Control Point']);\n    chartData.data[0].push(item['Total']);\n});\n\nmsg.payload = [chartData];\nvar newData = msg.payload[0].data[0];\n\nmsg.payload[0].data = newData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 900,
+        "wires": [
+            [
+                "5fa5d996ae176da0"
+            ]
+        ]
+    },
+    {
+        "id": "0af46b94136f2dad",
+        "type": "inject",
+        "z": "452249c593ca4764",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2700",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "object",
+        "payloadType": "date",
+        "x": 160,
+        "y": 820,
+        "wires": [
+            [
+                "8802ad2311bc9491"
+            ]
+        ]
+    },
+    {
+        "id": "8802ad2311bc9491",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Construct Queries",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 820,
+        "wires": [
+            [
+                "08582cbdb1b78c5a"
+            ]
+        ]
+    },
+    {
+        "id": "2eb82f94bb6345d6",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "function 4",
+        "func": "let today = new Date();\nlet yesterday = new Date(today.setDate(today.getDate() - 1));\nyesterday.setUTCHours(0, 0, 0, 0);\nlet yesterdayStr = yesterday.toISOString().split('T')[0];\n\nlet yesterdaysData = [];\n\nfor (let key in msg.payload) {\n    if (msg.payload.hasOwnProperty(key) && parseInt(key) % 2 === 0) {\n        let record = msg.payload[key];\n        let recordDateStr = new Date(record.updateTime).toISOString().split('T')[0];\n        if (recordDateStr === yesterdayStr) {\n            yesterdaysData.push(record);\n        }\n    }\n}\n\nmsg.payload = yesterdaysData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 820,
+        "wires": [
+            [
+                "f8540ddcd4d255a4"
+            ]
+        ]
+    },
+    {
+        "id": "5fa5d996ae176da0",
+        "type": "ui_chart",
+        "z": "452249c593ca4764",
+        "name": "",
+        "group": "2d6810adfe7d2d8f",
+        "order": 3,
+        "width": 15,
+        "height": "3",
+        "label": "Departure Yesterday",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 440,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ce0ed499c47e7de1",
+        "type": "mongodb3 in",
+        "z": "452249c593ca4764",
+        "service": "_ext_",
+        "configNode": "ecc26120.5c01a8",
+        "name": "HKO Retrieve Records",
+        "collection": "Travel Report",
+        "operation": "find.toArray",
+        "x": 680,
+        "y": 1000,
+        "wires": [
+            [
+                "8285d6e294e91375"
+            ]
+        ]
+    },
+    {
+        "id": "221d4ee9deb4dae8",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Format Chart Data",
+        "func": "let chartData = {\n    labels: [],\n    series: ['Total'],\n    data: [[]]\n};\n\nmsg.payload.forEach(function (item) {\n    chartData.labels.push(item['Control Point']);\n    chartData.data[0].push(item['Total']);\n});\n\nmsg.payload = [chartData];\nvar newData = msg.payload[0].data[0];\n\nmsg.payload[0].data = newData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 170,
+        "y": 1080,
+        "wires": [
+            [
+                "671f902e31b7b4d5",
+                "a847b82878796a01"
+            ]
+        ]
+    },
+    {
+        "id": "48f24dc8476f4db2",
+        "type": "inject",
+        "z": "452249c593ca4764",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2700",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "Timer",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 1000,
+        "wires": [
+            [
+                "c57822df5349f080"
+            ]
+        ]
+    },
+    {
+        "id": "c57822df5349f080",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "Construct Queries",
+        "func": "msg.payload = [\n    {\n        \"$query\": {}\n    },\n    {\n        \"sort\": {\n            \"_id\": -1\n        }\n    }\n]\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1000,
+        "wires": [
+            [
+                "ce0ed499c47e7de1"
+            ]
+        ]
+    },
+    {
+        "id": "a847b82878796a01",
+        "type": "debug",
+        "z": "452249c593ca4764",
+        "name": "debug 48",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 400,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "8285d6e294e91375",
+        "type": "function",
+        "z": "452249c593ca4764",
+        "name": "function 5",
+        "func": "let today = new Date();\nlet yesterday = new Date(today.setDate(today.getDate() - 1));\nyesterday.setUTCHours(0, 0, 0, 0);\nlet yesterdayStr = yesterday.toISOString().split('T')[0];\nlet yesterdaysData = [];\n\nfor (let key in msg.payload) {\n    if (msg.payload.hasOwnProperty(key) && parseInt(key) % 2 === 1) {\n        let record = msg.payload[key];\n        let recordDateStr = new Date(record.updateTime).toISOString().split('T')[0];\n        if (recordDateStr === yesterdayStr) {\n            yesterdaysData.push(record);\n        }\n    }\n}\n\nmsg.payload = yesterdaysData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1000,
+        "wires": [
+            [
+                "221d4ee9deb4dae8"
+            ]
+        ]
+    },
+    {
+        "id": "671f902e31b7b4d5",
+        "type": "ui_chart",
+        "z": "452249c593ca4764",
+        "name": "",
+        "group": "2d6810adfe7d2d8f",
+        "order": 4,
+        "width": 15,
+        "height": "3",
+        "label": "Arrival Yesterday",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": true,
+        "ymin": "0",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": true,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    }
+]
