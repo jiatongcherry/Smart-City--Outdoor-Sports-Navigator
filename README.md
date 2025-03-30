@@ -16,6 +16,10 @@ This project is a real-time outdoor activity dashboard designed to enhance the o
 - **Docker**: For containerization, ensuring the application runs consistently across different environments.
 - **APIs**: Integrated data sources from the Hong Kong Observatory.
 
+## Docker Repository
+   Mongodb: https://hub.docker.com/repository/docker/3036316285/smartcitymongo/general
+   NodeRED: https://hub.docker.com/repository/docker/3036316285/smartcitynodered/general
+
 ## Prerequisites
 
 - A Linux environment is required to run this project.
